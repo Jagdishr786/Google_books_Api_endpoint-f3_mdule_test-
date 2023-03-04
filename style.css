@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+}
+
+h1 {
+
+  position: absolute;
+  width: 236px;
+  height: 39px;
+  left: 30px;
+  top: 29px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+
+.line {
+
+  position: absolute;
+  width: 1728.06px;
+  height: 0px;
+  left: 0px;
+  top: 97px;
+
+  border: 1px solid #FFFFFF;
+  transform: rotate(0.46deg);
+}
+
+h2 {
+  position: absolute;
+  width: 497px;
+  height: 39px;
+  left: 30px;
+  top: 140px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+}
+
+#query {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1666px;
+  height: 64px;
+  left: 30px;
+  top: 218px;
+
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+}
+
+
+.btn {
+
+  position: absolute;
+  width: 262px;
+  height: 66px;
+  left: 30px;
+  top: 321px;
+  color: black;
+background-color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 39px;
+
+}
+
+
+.historybtn{
+  position:absolute;
+  width: 262px;
+  height: 66px;
+  left: 350px;
+  top: 321px;
+  color: black;
+  background-color: white;
+  font-family:'Inter';
+  font-size: 25px;
+}
+
+
+#flex-container {
+  
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.mydivbooks {
+color: white;
+position:relative;
+  box-sizing: border-box;
+  width: 400px;
+  height: 1101px;
+  left: 126px;
+  top: 504px;
+ 
+  border-radius: 10px;
+}
+
+img{
+  padding: 20px;
+ width: 350px;
+}
+
+.title {
+  padding: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 25px;
+}
+
+.author {
+  font-family: 'Inter';
+  font-style: normal;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.pagecount {
+  font-family: 'Inter';
+  font-style: normal;
+  padding: 20px;
+  font-size: 25px;
+}
+
+
+.publisher {
+  font-family: 'Inter';
+  font-style: normal;
+  padding: 20px;
+  font-size: 25px;  
+}
+
+.buynow{
+  margin: 20px;
+  width: 189.11px;
+height: 39px;
+left: 262px;
+top: 1521px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 39px;
+background-color: white;
+align-items: center;
+text-align: center;
+color:black;
+}
+
+#items{
+  padding: 50px;
+  box-sizing: border-box;
+position: absolute;
+width: 1656px;
+height: 119px;
+left: 30px;
+top: 233px;
+border-radius: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size:25px;
+line-height: 39px;
+color: #FFFFFF;
+}
+
+.hisbtn{ 
+  position: absolute;
+   text-align: center;
+width: 150px;
+height: 50px;
+left: 30px;
+top: 200px;
+color: black;
+background-color: white;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 39px;
+}
+

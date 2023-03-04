@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <h1>Book Store App</h1>
+  <div class="line"></div>
+  <h2>Your previous searches</h2>
+
+  <div id="items"></div>
+<button id="forHistory" class="hisbtn">clear history</button>
+
+  <script>
+//geting acces for button to later add functnality of clearing history
+      const hisButton= document.getElementById("forHistory")
+  
+      //unpacking string store in local storage to use
+    const booksData = JSON.parse(localStorage.getItem("obj"))
+
+    //cross check that data is been unpacked succfully
+    // console.log(booksData);
+
+    const newdiv = document.getElementById("items")
+
+    // showing history
+    booksData.forEach(element => {
+      const div = document.createElement('div')
+      div.textContent=element
+      newdiv.appendChild(div);
+    });
+
+//clearing history
+    hisButton.addEventListener('click',()=>{
+      localStorage.clear();
+      window.location.reload();
+    })
+
+
+
+
+
+  </script>
+</body>
+
+</html>
